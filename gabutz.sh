@@ -32,7 +32,9 @@ echo $green "|| \033[36;1m3>.\033[33;1mApi di Termux              ||"
 echo $blue "==================================="
 echo $green "|| \033[36;1m4>.\033[33;1mGame                       ||"
 echo $blue "==================================="
-echo $green "|| \033[36;1m5>.\033[33;1mOut                        ||"
+echo $green "|| \033[36;1m5>.\033[33;1mJam Digital                        ||"
+echo $blue "==================================="
+echo $green "|| \033[36;1m6>.\033[33;1mOut                        ||"
 echo $blue "==================================="
 echo $yellow "||"
 read -p "╚═(KC)>" KC;
@@ -104,6 +106,24 @@ echo $cyan "See You Next Time"
 fi
 
 if [ $KC = 5 ] || [ $KC = 05 ]
+then
+clear
+figlet "Jam" | lolcat
+echo
+echo
+echo $cyan "================\033[34;1m==================" 
+echo $white "AUTHOR : King Cracker"
+echo $cyan "================\033[34;1m==================" 
+echo $green "Untuk Menghentikannya Pilih ctrl+c ya tod..!"
+sleep 3
+pkg install  tty-clock 
+clear
+ tty-clock
+echo $yellow "Thx Udah Gunakan Tool Ini"
+echo $cyan "See You Next Time"
+fi
+
+if [ $KC = 6 ] || [ $KC = 06 ]
 then
 clear
 figlet "EXIT" | lolcat
