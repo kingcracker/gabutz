@@ -84,6 +84,7 @@ echo $white "AUTHOR : King Cracker"
 echo $cyan "================\033[34;1m==================" 
 echo $green "Untuk Menghentikannya Pilih ctrl+c ya tod..!"
 sleep 3
+pkg install libcaca
 cacafire
 fi
 
